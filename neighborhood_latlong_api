@@ -301,6 +301,15 @@
     "# Visualize to confirm lat lng appear\n",
     "neighborhoods_pd.head()"
    ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 30,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "neighborhoods_pd.to_csv(\"neighborhood_data.csv\")"
+   ]
   }
  ],
  "metadata": {
